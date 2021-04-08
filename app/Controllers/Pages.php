@@ -9,7 +9,7 @@ class Pages extends BaseController
 		return "This is the Pages Controller -> Index Function";
 	}
 
-	public function showme($page = 'home')
+	public function showme($page = 'hlava')
 	{   
 		 return 'This Page is '.$page;
 	}

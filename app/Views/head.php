@@ -8,19 +8,20 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
-                <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #009999;">
+                <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #04cfc3;">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Kino</a>
+                    <a class="navbar-brand" href="/">Kino</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
                 <div class="container-fluid collapse navbar-collapse" id="navbar-responsive">
+                
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span> </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Page 1 <span class="sr-only">(current)</span> </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Page 2 <span class="sr-only">(current)</span> </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Page 3 </a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">Úvod <span class="sr-only">(current)</span> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo base_url("auth/login")?>">Přihlášení </a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo base_url("auth/forgot_password")?>">Zapomenuté heslo </a></li>
+                    
                 </ul>
             </div>
         </nav>

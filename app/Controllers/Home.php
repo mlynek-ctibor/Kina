@@ -4,8 +4,11 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-	public function hlavni()
+
+	
+	public function zacatek()
 	{
 		echo view("head");
+		echo view("text");
 	}
 }
