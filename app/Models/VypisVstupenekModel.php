@@ -21,4 +21,5 @@ class VypisVstupenekModel extends Model
 
 }
 
+
 ?>

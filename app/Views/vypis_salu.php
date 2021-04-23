@@ -4,6 +4,7 @@
             <div class ="card">
                 <div class="card-header">
                     <h5>Výpis sálů</h5>
+                    <a href="<?= base_url('pridat_sal') ?>" class="btn btn-info btn-sm float-end">Přidat</a>
                 </div>
                 <div class="card-body">
                 <table class="table table-bordered" id="filmy-list">
@@ -13,6 +14,7 @@
                             <th>Číslo sálu</th>
                             <th>Typ promítání</th>
                             <th>Typ ozvučení</th>
+                            <th></th>
 
 
                         </tr>
@@ -22,14 +24,14 @@
 
                                 <?php foreach($saly as $row) : ?>
                                     <tr>
-                                        
+                                       
                                         <td><?php echo $row['cislo_salu']; ?></td>
                                         <td><?php echo $row['typ_promitani']; ?></td>
                                         <td><?php echo $row['typ_ozvuceni']; ?></td>
 
                                         <td>
-                                            <a href="#" class="btn btn-primary btn-info">Upravit</a>
-                                            <a href="#" class="btn btn-danger btn-dark">Smazat</a>
+                                            <a href="<?= base_url('upravaSalu/'.$row['id_salu'])?>" class="btn btn-info btn-sm">Upravit</a>
+                                            <a href="<?= base_url('smazatSal/'.$row['id_salu'])?>" class="btn btn-dark btn-sm">Smazat</a>
                                         </td>
                                         </tr>
                                         <?php endforeach; ?>

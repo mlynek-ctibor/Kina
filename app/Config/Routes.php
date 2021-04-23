@@ -37,10 +37,20 @@ $routes->get('vypis_filmu', 'Home::vypis_filmu');
 $routes->get('vypis_salu', 'Home::vypis_salu');
 $routes->get('vypis_vstupenek', 'Home::vypis_vstupenek');
 $routes->get('pridat_film', 'Home::pridat_film');
+$routes->get('pridat_sal', 'Home::pridat_sal');
+$routes->get('pridat_vstupenku', 'Home::pridat_vstupenku');
 $routes->post('zapsat', 'Home::zapsat');
+$routes->post('zapsatSal', 'Home::zapsat_sal');
+$routes->post('zapsatVstupenku', 'Home::zapsat_vstupenku');
 $routes->get('uprava/(:num)','Home::uprava/$1');
-$routes->put('zapsatUpravu/(:num)','Home::zapsatUpravu/$1');
+$routes->get('upravaSalu/(:num)','Home::uprava_salu/$1');
+$routes->get('upravaVstupenky/(:num)','Home::uprava_vstupenky/$1');
+$routes->put('zapsatUpravu/(:num)','Home::zapsat_upravu/$1');
 $routes->get('smazat/(:num)','Home::smazat/$1');
+$routes->get('smazatSal/(:num)','Home::smazat_sal/$1');
+$routes->get('smazatVstupenku/(:num)','Home::smazat_vstupenku/$1');
+$routes->put('zapsatUpravuSalu/(:num)','Home::zapsat_upravuSalu/$1');
+$routes->put('zapsatUpravuVstupenky/(:num)','Home::zapsat_upravuVstupenky/$1');
 
 $routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes) {
 	$routes->add('login', 'Auth::login');

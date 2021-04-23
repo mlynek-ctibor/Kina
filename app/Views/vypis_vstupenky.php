@@ -4,6 +4,7 @@
             <div class ="card">
                 <div class="card-header">
                     <h5>Výpis Vstupenek</h5>
+                    <a href="<?= base_url('pridat_vstupenku') ?>" class="btn btn-info btn-sm float-end">Přidat</a>
                 </div>
                 <div class="card-body">
                 <table class="table table-bordered" id="filmy-list">
@@ -14,7 +15,7 @@
                             <th>Cena vstupenky</th>
                             <th>ID sálu</th>
                             <th>Místo v sále</th>
-
+                            <th></th>
 
                         </tr>
                         </thead>
@@ -30,8 +31,8 @@
                                         <td><?php echo $row['misto_v_sale']; ?></td>
 
                                         <td>
-                                            <a href="#" class="btn btn-primary btn-info">Upravit</a>
-                                            <a href="#" class="btn btn-danger btn-dark">Smazat</a>
+                                        <a href="<?= base_url('upravaVstupenky/'.$row['id_prodeje'])?>" class="btn btn-info btn-sm">Upravit</a>
+                                            <a href="<?= base_url('smazatVstupenku/'.$row['id_prodeje'])?>" class="btn btn-dark btn-sm">Smazat</a>
                                         </td>
                                         </tr>
                                         <?php endforeach; ?>

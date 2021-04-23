@@ -9,7 +9,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
-                <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #04cfc3;">
+                <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #2FE1BD;">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="/">Kino</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
