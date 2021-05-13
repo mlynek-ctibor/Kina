@@ -21,7 +21,7 @@
                         </div>
                         <div class="form-group mb-2">
                             <label>Délka filmu(číslo)</label>
-                            <input type="text" name="delka" class="form-control" placeholder="Napiš délku filmu(číslo)" required>
+                            <input type="number" name="delka" class="form-control" placeholder="Napiš délku filmu(číslo)" required>
                         </div>
                         <label>Žánr filmu</label>
 

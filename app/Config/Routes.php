@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/', 'FullCalendar::index');
 $routes->get('vypis_filmu', 'Home::vypis_filmu');
 $routes->get('vypis_salu', 'Home::vypis_salu');
 $routes->get('vypis_vstupenek', 'Home::vypis_vstupenek');

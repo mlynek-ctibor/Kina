@@ -215,6 +215,11 @@ class Home extends BaseController
 				$vstupenky->delete($id);
 				return redirect()->to(base_url('vypis_vstupenek'));
 			}
+		
+		
+		
+		
+		
 		}
 
 ?>

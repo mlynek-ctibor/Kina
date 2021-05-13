@@ -19,7 +19,7 @@ $results = $query->getResultArray();
                 <table class="table table-bordered" id="filmy-list">
                     <thead>
                         <tr>
-                            <th>ID filmu</th>
+                            
                             <th>Český název</th>
                             <th>Originální název</th>
                             <th>Délka filmu(min)</th>
@@ -36,7 +36,7 @@ $results = $query->getResultArray();
                                 <?php foreach($results as $row) { ?>
                                     <?php $ids = $row['id_filmu']; ?>
                                     <tr>
-                                        <td><?php echo $row['id_filmu']; ?></td>
+                                        
                                         <td><?php echo $row['nazev_cz']; ?></td>
                                         <td><?php echo $row['originalni_nazev']; ?></td>
                                         <td><?php echo $row['delka']; ?></td>

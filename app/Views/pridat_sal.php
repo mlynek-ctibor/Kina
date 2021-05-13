@@ -11,11 +11,11 @@
                     <form action="<?= base_url('zapsatSal') ?>" method="POST">
                     <div class="form-group mb-2">
                             <label>Číslo sálu</label>
-                            <input type="text" name="cislo_salu"  class="form-control" placeholder="Napište číslo sálu" required>
+                            <input type="number" name="cislo_salu"  class="form-control" placeholder="Napište číslo sálu" required>
                         </div>
                         <div class="form-group mb-2">
                             <label>Typ promítání</label>
-                            <input type="text" name="typ_promitani"  class="form-control" placeholder="Napište typ promítání" required>
+                            <input type="text" name="typ_promitani"  class="form-control" placeholder="Napiš typ promítání" required pattern="3[Dd]|2[Dd]">
                         </div>
                         <div class="form-group mb-2">
                             <label>Typ ozvučení</label>

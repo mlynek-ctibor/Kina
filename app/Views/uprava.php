@@ -21,7 +21,7 @@
                         </div>
                         <div class="form-group mb-2">
                             <label>Délka filmu(číslo)</label>
-                            <input type="text" name="delka" value="<?= $filmy['delka'] ?>" class="form-control" placeholder="Napiš délku filmu" required>
+                            <input type="text" name="number" value="<?= $filmy['delka'] ?>" class="form-control" placeholder="Napiš délku filmu" required>
                         </div>
                         <label>Žánr filmu</label>
                         <select class="form-control" name="id_zanru_filmu" id="id_zanru_filmu">

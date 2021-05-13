@@ -16,16 +16,16 @@
                         </div>
                         <div class="form-group mb-2">
                             <label>Cena vstupenky(číslo)</label>
-                            <input type="text" name="cena_vstupenky" value="<?= $prodeje['cena_vstupenky'] ?>" class="form-control" placeholder="Napiš cenu vstupenky(číslo)" required>
+                            <input type="number" name="cena_vstupenky" value="<?= $prodeje['cena_vstupenky'] ?>" class="form-control" placeholder="Napiš cenu vstupenky(číslo)" required>
                         </div>
 
                         <div class="form-group mb-2">
                             <label>Číslo sálu(číslo)</label>
-                            <input type="text" name="id_salu_id" value="<?= $prodeje['id_salu_id'] ?>" class="form-control" placeholder="Napiš číslo sálu(číslo)" required>
+                            <input type="number" name="id_salu_id" value="<?= $prodeje['id_salu_id'] ?>" class="form-control" placeholder="Napiš číslo sálu(číslo)" required>
                         </div>
                         <div class="form-group mb-2">
                             <label>Místo(číslo)</label>
-                            <input type="text" name="misto_v_sale" value="<?= $prodeje['misto_v_sale'] ?>" class="form-control" placeholder="Napiš místo v sále(číslo)" required>
+                            <input type="number" name="misto_v_sale" value="<?= $prodeje['misto_v_sale'] ?>" class="form-control" placeholder="Napiš místo v sále(číslo)" required>
                         </div>
 
                      

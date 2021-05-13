@@ -15,16 +15,16 @@
                         </div>
                         <div class="form-group mb-2">
                             <label>Cena vstupenky</label>
-                            <input type="text" name="cena_vstupenky"  class="form-control" placeholder="V korunách" required>
+                            <input type="number" name="cena_vstupenky"  class="form-control" placeholder="V korunách" required>
                         </div>
 
                         <div class="form-group mb-2">
                             <label>Číslo sálu</label>
-                            <input type="text" name="id_salu_id"  class="form-control" placeholder="Napište číslo sálu" required>
+                            <input type="number" name="id_salu_id"  class="form-control" placeholder="Napište číslo sálu" required>
                         </div>
                         <div class="form-group mb-2">
                             <label>Místo</label>
-                            <input type="text" name="misto_v_sale"  class="form-control" placeholder="Napište číslo místa v sále" required>
+                            <input type="number" name="misto_v_sale"  class="form-control" placeholder="Napište číslo místa v sále" required>
                         </div>
 
 

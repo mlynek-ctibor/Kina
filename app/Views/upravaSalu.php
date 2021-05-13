@@ -11,16 +11,16 @@
                     <form action="<?= base_url('zapsatUpravuSalu/'.$saly['id_salu']) ?>" method="POST">
                     <input type="hidden" name="_method" value="PUT" />
                         <div class="form-group mb-2">
-                            <label>Číslo sálu(číslo)</label>
-                            <input type="text" name="cislo_salu" value="<?= $saly['cislo_salu'] ?>" class="form-control" placeholder="Napište číslo sálu" required>
+                        <label>Číslo sálu</label>
+                            <input type="number" name="cislo_salu"  class="form-control" placeholder="Napiš číslo sálu(číslo)" required>
                         </div>
                         <div class="form-group mb-2">
                             <label>Typ promítání</label>
-                            <input type="text" name="typ_promitani" value="<?= $saly['typ_promitani'] ?>" class="form-control" placeholder="Napište typ promítání" required>
+                            <input type="text" name="typ_promitani"  class="form-control" placeholder="Napiš typ promítání" required pattern="3[Dd]|2[Dd]">
                         </div>
                         <div class="form-group mb-2">
                             <label>Typ ozvučení</label>
-                            <input type="text" name="typ_ozvuceni" value="<?= $saly['typ_ozvuceni'] ?>" class="form-control" placeholder="Napište typ ozvučení" required>
+                            <input type="text" name="typ_ozvuceni"  class="form-control" placeholder="Napiš typ ozvučení" required>
                         </div>
 
                         <div class="form-group">
